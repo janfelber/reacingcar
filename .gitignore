@@ -70,3 +70,16 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Unity project files
+/Library/
+*/Temp/
+*/Obj/
+*/Build/
+*/Builds/
+*/Logs/
+*/UserSettings/
+
+# Ignore addressable assets and large files not needed in version control
+/[Aa]ddressable[Aa]ssets[Dd]ata/
+/Assets/StreamingAssets/
