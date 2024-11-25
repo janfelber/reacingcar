@@ -1,0 +1,76 @@
+# Unity špecifické priečinky, ktoré by sa nemali commitovať
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Zachytenie pamäte a nahrávky
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Súbory a priečinky generované Asset Store Tools
+/[Aa]ssets/AssetStoreTools*
+
+# Jetbrains Rider plugin
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio a iné IDE súbory
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.VC.db
+
+# Gradle a ďalšie dočasné priečinky
+.gradle/
+ExportedObj/
+.consulo/
+
+# Unity meta súbory
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Systémové súbory pri pádoch alebo chybách
+sysinfo.txt
+
+# Súbory výsledných buildov
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics konfigurácia
+crashlytics-build.properties
+
+# Addressables binárne súbory
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Dočasné adresáre a súbory pre Android
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Platformovo špecifické súbory (Mac, Linux, Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logy a diagnostika
+*.log
+
+# Dočasné a cache súbory, ktoré generuje Unity
+*.tmp
+*.bak
+*.swp
+*.lock
+*.stackdump
